@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "Jaffna Music Night",
+    "date": "2026-08-05",
+    "time": "6:30 PM",
+    "type": "Music",
+    "location": "Jaffna Cultural Centre",
+    "description": "An evening of live Tamil music featuring talented local performers.",
+    "price": 2500,
+    "accent": "purple"
+  },
+  {
+    "id": 2,
+    "name": "Colombo Tech Meetup",
+    "date": "2026-08-07",
+    "time": "4:00 PM",
+    "type": "Technology",
+    "location": "Hatch Works, Colombo",
+    "description": "Meet developers, learn practical ideas, and explore Sri Lanka's tech community.",
+    "price": 0,
+    "accent": "blue"
+  },
+  {
+    "id": 3,
+    "name": "Northern Food Festival",
+    "date": "2026-08-11",
+    "time": "11:00 AM",
+    "type": "Food",
+    "location": "Jaffna Fort Grounds",
+    "description": "Taste traditional favourites and discover new dishes from local vendors.",
+    "price": 750,
+    "accent": "orange"
+  },
+  {
+    "id": 4,
+    "name": "Young Creators Workshop",
+    "date": "2026-08-18",
+    "time": "9:30 AM",
+    "type": "Education",
+    "location": "Public Library, Jaffna",
+    "description": "A hands-on workshop for students interested in design and digital creativity.",
+    "price": 1000,
+    "accent": "green"
+  },
+  {
+    "id": 5,
+    "name": "Beach Sports Challenge",
+    "date": "2026-08-29",
+    "time": "7:00 AM",
+    "type": "Sports",
+    "location": "Casuarina Beach",
+    "description": "Join friendly team games and an energetic morning by the sea.",
+    "price": 500,
+    "accent": "pink"
+  },
+  {
+    "id": 6,
+    "name": "Community Art Exhibition",
+    "date": "2026-09-05",
+    "time": "10:00 AM",
+    "type": "Arts",
+    "location": "Colombo Art Gallery",
+    "description": "Explore paintings, photography, and installations by emerging artists.",
+    "price": 300,
+    "accent": "teal"
+  }
+]
