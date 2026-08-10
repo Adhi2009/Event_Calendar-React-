@@ -28,26 +28,25 @@ const EventCalendar = ({ watchlist, onToggleWatchlist, onRegister }) => {
   return (
     <section className="content-section">
       <div className="page-heading">
-        <h1>Event Calendar</h1>
-        <p>Click a date to view its events.</p>
+        <h1> Event Calendar </h1>
+        <p> Click a date to view its events. </p>
       </div>
 
       <div className="calendar-panel">
         <div className="calendar-toolbar">
-          <button onClick={() => changeMonth(-1)}>Previous</button>
+          <button onClick={() => changeMonth(-1)}> Previous </button>
           <h2>{monthName}</h2>
-          <button onClick={() => changeMonth(1)}>Next</button>
+          <button onClick={() => changeMonth(1)}> Next </button>
         </div>
 
         <CalendarView
           currentMonth={currentMonth}
           events={events}
           selectedDate={selectedDate}
-          onSelectDate={setSelectedDate}
-        />
+          onSelectDate={setSelectedDate}/>
       </div>
 
-      <h2 className="selected-title">Events on Selected Date</h2>
+      <h2 className="selected-title"> Events on Selected Date </h2>
       {selectedEvents.length > 0 ? (
         <div className="event-grid">
           {selectedEvents.map((event) => (
@@ -56,12 +55,11 @@ const EventCalendar = ({ watchlist, onToggleWatchlist, onRegister }) => {
               event={event}
               isWatchlisted={watchlist.some((item) => item.id === event.id)}
               onToggleWatchlist={onToggleWatchlist}
-              onRegister={onRegister}
-            />
+              onRegister={onRegister} />
           ))}
         </div>
       ) : (
-        <p className="empty-state">No events on this date.</p>
+        <p className="empty-state"> No event on this date. </p>
       )}
     </section>
   );

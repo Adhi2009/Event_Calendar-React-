@@ -37,17 +37,16 @@ const CalendarView = ({ currentMonth, events, selectedDate, onSelectDate }) => {
             className={`calendar-day ${isSelected ? "selected" : ""} ${isToday ? "today" : ""}`}
             key={dateKey}
             onClick={() => onSelectDate(dateKey)}
-            aria-label={`${date.toLocaleDateString()}${dayEvents.length ? `, ${dayEvents.length} events` : ""}`}
-          >
+            aria-label={`${date.toLocaleDateString()}${dayEvents.length ? `, ${dayEvents.length} events` : ""}`} >
             <span className="day-number">{date.getDate()}</span>
             <span className="day-events">
               {dayEvents.slice(0, 2).map((event) => (
-                <span className={`calendar-event-dot ${event.accent}`} key={event.id}>{event.name}</span>
+                <span className={`calendar-event-dot ${event.accent}`} key={event.id}>{event.name} </span>
               ))}
-              {dayEvents.length > 2 && <small>+{dayEvents.length - 2} more</small>}
+              {dayEvents.length > 2 && <small>+{dayEvents.length - 2} more </small>}
             </span>
           </button>
-        );
+           );
       })}
     </div>
   );
