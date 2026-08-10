@@ -7,8 +7,8 @@ const FilterBar = ({ timeframe, eventType, onTimeframeChange, onTypeChange }) =>
       <div className="segmented-control">
         {["All", "This Week", "This Month"].map((option) => (
           <button
-            key={option}
-            className={timeframe === option ? "active" : ""}
+              key={option}
+              className={timeframe === option ? "active" : ""}
             onClick={() => onTimeframeChange(option)}
           >
             {option}
