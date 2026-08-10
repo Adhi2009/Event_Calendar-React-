@@ -10,9 +10,9 @@ export const AuthProvider = ({ children }) => {
 
   return (
     <AuthContext.Provider value={{ user, isLoggedIn: Boolean(user), login, logout }}>
-      {children}
-    </AuthContext.Provider>
+       {children}
+     </AuthContext.Provider>
   );
 };
 
-export const useAuth = () => useContext(AuthContext);
+export const useAuth = () =>  useContext(AuthContext);

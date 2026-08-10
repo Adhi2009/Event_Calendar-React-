@@ -6,7 +6,7 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   color: #1f2937;
-  background: #f5f7fa;
+    background: #f5f7fa;
 }
 
 button,
@@ -20,7 +20,7 @@ button {
 }
 
 a {
-  color: inherit;
+     color: inherit;
   text-decoration: none;
 }
 

@@ -7,11 +7,11 @@ const initialState = {
 };
 
 const reducer = (state, action) => {
-  return { ...state, [action.name]: action.value };
+       return { ...state, [action.name]: action.value };
 };
 
 const RegistrationModal = ({ event, onClose }) => {
-  const [form, dispatch] = useReducer(reducer, initialState);
+      const [form, dispatch] = useReducer(reducer, initialState);
 
   const handleChange = (e) => {
     dispatch({ name: e.target.name, value: e.target.value });
