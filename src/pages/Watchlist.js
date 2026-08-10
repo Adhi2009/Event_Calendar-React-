@@ -16,9 +16,9 @@ const Watchlist = ({ watchlist, onToggleWatchlist, onRegister }) => (
             event={event}
             isWatchlisted={true}
             onToggleWatchlist={onToggleWatchlist}
-            onRegister={onRegister}
-          />
+            onRegister={onRegister}/>
         ))}
+      
       </div>
     ) : (
       <div className="empty-state large-empty">
