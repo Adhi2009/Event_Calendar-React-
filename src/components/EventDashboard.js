@@ -7,8 +7,8 @@ const EventDashboard = ({
   searchText,
   timeframe,
   eventType,
-   watchlist,
-   onSearchChange,
+  watchlist,
+  onSearchChange,
   onTimeframeChange,
   onTypeChange,
   onToggleWatchlist,
@@ -16,9 +16,9 @@ const EventDashboard = ({
 }) => (
   <section className="content-section">
     <div className="toolbar">
-       <SearchBar searchText={searchText} onSearchChange={onSearchChange} />
+      <SearchBar searchText={searchText} onSearchChange={onSearchChange} />
       <FilterBar
-         timeframe={timeframe}
+        timeframe={timeframe}
         eventType={eventType}
         onTimeframeChange={onTimeframeChange}
         onTypeChange={onTypeChange}
