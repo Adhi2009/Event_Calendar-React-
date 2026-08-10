@@ -12,8 +12,8 @@ const ExploreEvents = ({ watchlist, onToggleWatchlist, onRegister }) => {
 
   useEffect(() => {
     fetchEvents().then((data) => {
-      setEvents(data);
-      setLoading(false);
+        setEvents(data);
+        setLoading(false);
     });
   }, []);
 

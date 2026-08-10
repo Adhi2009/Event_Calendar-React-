@@ -4,9 +4,9 @@ const SearchBar = ({ searchText, onSearchChange }) => (
     <input
       type="search"
       value={searchText}
-      onChange={(event) => onSearchChange(event.target.value)}
+       onChange={(event) => onSearchChange(event.target.value)}
       placeholder="Search events by name..."
-      aria-label="Search events by name"
+       aria-label="Search events by name"
     />
   </label>
 );
